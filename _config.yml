@@ -9,3 +9,4 @@ author:
 gems:
   - jekyll-paginate
 
+permalink: /:title.html
