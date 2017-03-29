@@ -1,1 +1,11 @@
 theme: jekyll-theme-cayman
+title: 青丝零落,粉履成云
+#baseurl: http://parcuse.github.io
+
+author:
+  name:  parcuse
+  url:  http://parcuse.github.io
+
+gems:
+  - jekyll-paginate
+

@@ -1,10 +1,14 @@
-If life is just the same as the first meeting,How could love be thrown as useless winter fans
+---
+layout: default
+title: {{ site.name }}
+---
 
-
-<li><a href="start">start</a></li>
-<li><a href="gedis">gedis</a></li>
-<li><a href="web-programming">web programming</a></li>
-<li><a href="git">git</a></li>
-<li><a href="python">python</a></li>
-<li><a href="conproccess-and-non-blocking-programming">conproccess and non-blocking programming</a></li>
+<div id="home">
+  <h1>Index</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
 
